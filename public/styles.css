@@ -1,0 +1,734 @@
+/*Brand Color: #01244e; */
+
+body {
+  background: white;
+  margin: 0;
+  padding:0 ;
+  background-size: 280% 280%;
+  height: 100vh;
+}
+.theme-bg {
+  background: linear-gradient(300deg, #ffffff, #7a9fea, #4fe2c5);
+}
+
+.outline{
+  border: solid cyan 2px;
+}
+.container1{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  width:100;
+}
+
+.main1{
+  display:flex;
+  padding:50px;
+  width:100%;
+display:flex;
+
+flex-wrap:wrap;
+width:100%;
+}
+.subtitle{
+display:flex;
+margin: 0;
+justify-content:flex-start;
+width:100%;
+}
+.main2{
+  width:100%;
+  height:100%;
+}
+.mainLogin{
+  height:100%;
+  width:100%;
+  margin:0;
+color:#01244e;
+background: #01244e13;
+display:flex;
+align-items:center;
+flex-direction:column;
+justify-content:center;
+}
+.log{
+  padding:20px;
+  background:#01244e;
+  width:250px;
+  height:35px;
+  color:white;
+  border-radius:18px;
+  text-transform: uppercase;
+  font-family: "League Gothic", serif;
+  font-size:2rem;
+  display:inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+.log:hover{
+  cursor:pointer;
+}
+.td,.ga{
+  font-family: "League Gothic", serif;
+  text-transform:uppercase;
+  font-weight:200;
+  color:#01244e;
+}
+.td{
+margin-bottom:-20px;
+font-size:2rem;}
+.hp3{
+  margin:0;
+  width:100%;
+}
+.d1{
+  grid-row: 2;
+}
+.contentz{
+  margin: -20px 0 0 0;
+  display:flex;
+  justify-content:flex-start;
+  gap:15px;
+}
+.d1,.d2,.d3,.d4{
+  margin: -50px 0 0 0;
+}
+.b1, .b2,.b3{
+  width:150px;
+  height: 150px;
+  padding:5px;
+  border: black 3px solid;
+  box-shadow:0 5px 8px 0 rgba(16, 16, 16, 0.707);
+  border-radius: 18%;
+}
+.hp3{
+  display:inline-flex;
+margin:-55px 0 0 0;
+padding:0px;
+}
+.hp4{
+  position:relative;
+  font-size:3rem;
+  text-align:left;
+}
+
+.blues{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column: span 2;
+  min-height:400px;
+  background:rgb(0, 33, 94);
+}
+
+.container2{
+  display:grid;
+  grid-template-columns: 20% 20% 40%;
+  grid-template-rows: 50% 50%;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-column-end:3;
+}
+.contained{
+  padding:25px;
+}
+
+.slogan{
+  font-family: "League Gothic", serif;
+  text-align:left;
+  font-size: 3rem;
+  font-weight:200;
+  color:cyan;
+  padding:0 0 0 20px;
+  margin: 0 0 5px 0;
+}
+.p1,.p2,.p3{
+  margin: -10px 0 0 15px;
+  font-family: "Roboto",sans-serif;
+  font-size:1.2.rem;
+  font-weight:500;
+}
+.mbg{
+  background:#abb4c13d;
+}
+.dTextDiv{
+  color:white;
+  text-align:left;
+  padding:5px;
+}
+
+.line{
+  border: white solid 2px;
+  height:1px;
+  width: 1px;
+
+  margin: 0 5px 0 0;
+}
+
+
+
+
+.app {
+  text-align: center;
+  height: 100vw;
+}
+.create {
+  margin-top: 50px;
+}
+.create:hover {
+  cursor: pointer;
+  color: white;
+}
+.header {
+  display: flex;
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  padding: 20px 0px 20px 0;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  color: white;
+  background-color: #01244e;
+}
+
+.footer {
+  display: block;
+  font-family: sans-serif;
+  font-style: italic;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 5px;
+  color: #01244e;
+}
+#matchError {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.loginSection {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  margin: 15px 0px;
+  padding: 10px 0px;
+}
+.loginHeader {
+  text-transform: uppercase;
+  color: #01244e;
+}
+#letItGo {
+  font-size: 2.2rem;
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #01244e;
+}
+
+.letGoInfo {
+  border-top:solid
+  padding:0;
+  margin:0;
+  color: #01244e;
+  font-family: "Archvio", sans-serif;
+}
+.loginForm {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.loginBtnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.google {
+  height: 13px;
+  width: 13px;
+  margin-right: 10px;
+}
+
+.formBtn {
+  height: 30px;
+  font-family: "Archvio", sans-serif;
+  width: 230px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  margin-top: 30px;
+  border: 2px rgb(161, 236, 241) solid;
+  background-color: #01244e;
+  color: white;
+}
+.formBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.formBtn a:hover {
+  color: #01244e;
+}
+
+.formBtn:hover {
+  cursor: pointer;
+  font-weight: bold;
+  transform: scale(1);
+  background: white;
+  border-color: rgb(32, 202, 214);
+  color: #01244e;
+}
+
+.entrySection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.inputs {
+  display: flex;
+  border-radius: 25px;
+  height: 25px;
+  width: 200px;
+  margin: 5px;
+  padding: 5px 15px;
+  border-color: rgb(32, 202, 214);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.entrySection {
+  width: 100%;
+  padding: 25px;
+}
+.entryTitle {
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  height: 5px;
+  padding: 15px;
+  border: darkcyan inset;
+}
+.entryContent {
+  font-family: "Archvio", sans-serif;
+  display: block;
+  height: 250px;
+  border-radius: 25px;
+  padding: 15px;
+  resize: none;
+
+  border: darkcyan inset;
+}
+
+.entryContent::-webkit-scrollbar {
+  display: none;
+}
+
+.newEntryBtns {
+  display: flex;
+  padding: 5px 0;
+  gap: 15px;
+}
+#dateBox {
+  width: 100%;
+  padding-top: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+#date {
+  margin: 5px;
+  font-weight: 600;
+}
+.entryBtn {
+  display: block;
+  min-width: 30%;
+  max-width: 30%;
+  height: 30px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  margin-top: 8px;
+  border: 2px rgb(161, 236, 241) outset;
+  background-color: #01244e;
+  color: white;
+}
+
+.entryBtn:hover {
+  background: white;
+  border: inset rgb(32, 202, 214);
+  color: #01244e;
+  font-weight: bold;
+  transform: scale(1.1);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+/* MEDIDATION SECTION */
+.meditationDiv {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.med-icon {
+  width: 200px;
+  height: 200px;
+  background: rgb(252, 252, 252);
+  border-radius: 50%;
+  padding: 5px;
+  border-bottom: cyan 4px solid;
+  border-top: cyan 4px solid;
+}
+.circ-animation {
+  padding: 5px 5px 5px 5px;
+  border-radius: 50%;
+  margin-top: 50px;
+  width: 200px;
+
+  /* background-color: rgb(255, 255, 255); */
+}
+
+.duration {
+  font-family: "Archvio", sans-serif;
+  font-size: 1.2rem;
+  border-bottom: solid #01244e 4px;
+  padding:10px;
+  font-weight: 400;
+}
+
+.meditateForm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.meditateForm h1 {
+  margin-top: 25px;
+  font-family: "Roboto", serif;
+  color: white;
+  font-size: 4rem;
+  border-bottom: rgb(0, 33, 94) 10px solid;
+}
+.meditate {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Archvio", sans-serif;
+  color: rgb(0, 33, 94);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.meditate p {
+  font-weight: 200;
+  font-style: italic;
+  color: white;
+  margin-top: 25px;
+}
+
+.medBox {
+  display: flex;
+  margin-top: 0px;
+}
+
+.med-btn {
+  font-family: "Roboto", serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+  border-radius: 50%;
+  border: cyan 2px solid;
+  border-style: inset;
+  background:#01244e;
+  color:white;
+  transition-duration: 154ms;
+  transition: border ease-in linear 150ms;
+}
+
+.med-btn:hover {
+  transform: scale(1.1, 1.1);
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #01244e;
+  color: #01244e;
+  background-color:white;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 0 33px 0px cyan;
+}
+
+/*ANIMATION*/
+#meditationText {
+  font-size:2rem;
+  color: #01244e;
+  text-transform:uppercase;
+  font-size: 1.8rem;
+
+  font-family: "Roboto";
+}
+#activeMeditationText {
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #01244e;
+  animation: fade 5s infinite;
+}
+.med-animation {
+  margin-top: 200px !important;
+  animation: pulse var(--duration) cubic-bezier(0.5, 0, 0.5, 1) alternate
+    infinite;
+}
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.6);
+    /* background: linear-gradient(300deg, #ffffff, #7a9fea, #4fe2c5); */
+    box-shadow: 0 0 50px 10px cyan;
+    border-color: cyan;
+  }
+  50% {
+    transform: scale(1);
+    /* background: linear-gradient(300deg, #ffffff, #7a9fea, #4fe2c5); */
+    box-shadow: 0 0 50px 20px white;
+    border-color: white;
+  }
+  100% {
+    transform: scale(0.6);
+    /* background: linear-gradient(300deg, #ffffff, #7a9fea, #4fe2c5); */
+    box-shadow: 0 0 50px 10px cyan;
+    border-color: cyan;
+  }
+}
+.countDownDiv {
+  width: 100%;
+}
+#countDown {
+  font-family: "Roboto";
+  font-size: 2.4rem;
+  color: #01244e;
+  text-align: center;
+}
+/*LET ANIMATION! */
+
+#letGoText {
+  font-size: 2rem;
+  font-family: "Archvio", sans-serif;
+  animation: letgo 10s ease;
+  margin: 0;
+}
+
+@keyframes letgo {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+/* USER/HOME PAGE::: */
+.home {
+  font-family: "Archvio", sans-serif;
+}
+.homeUser {
+  margin-bottom: 0;
+}
+
+.userImg {
+  border: black solid 2px;
+  background: white;
+  height: 100px;
+  width: 100px;
+  margin: 25px;
+  border-radius: 50%;
+}
+
+/* POST LIST */
+.journalBox {
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.journalDiv {
+  width: 300px;
+  height: 100%;
+  margin: 0;
+}
+.postListTitle {
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 25px 25px 25px 25px;
+  padding-bottom: 5px;
+  color: #01244e;
+  border-bottom: #01244e 4px double;
+}
+
+.journalBtn button {
+  border: 2px outset white;
+  color: white;
+  background-color: #01244e;
+  font-size: 1.3rem;
+  border-radius: 16px;
+}
+.journalBtn button:hover {
+  background-color: white;
+  color: #01244e;
+  font-weight: 600;
+  transform: scale(1.025);
+  border-color: #01244e;
+  cursor: pointer;
+}
+
+.journal {
+  margin: 20px 0;
+  font-family: "Archvio", sans-serif;
+  color: white;
+}
+
+.journalEntry {
+  border: cyan 2px inset;
+  background: #01244e;
+  border-radius: 16px;
+  margin: 10px 20px;
+  padding: 0px 20px 5px 20px;
+}
+.journalEntry:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  border: 3px solid;
+  box-shadow: 0 0 10px 0px cyan;
+}
+
+.journalEntry h2 {
+  color: white;
+  text-transform: uppercase;
+  transition-duration: 0.88s;
+  transition-timing-function: inherit;
+}
+.journalEntry h2:hover {
+  color: white;
+  text-align: left !important;
+  text-shadow: 0 2px 10px cyan;
+}
+.previewContent {
+  text-align: left;
+}
+.icon-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.icon-edit,
+.icon-delete,
+.icon-view {
+  height: 35px;
+  width: 35px;
+  padding: 2px;
+  margin-bottom: 0px;
+  transition-duration: 154ms;
+  transition: rotate ease-in linear 150ms;
+}
+
+.icon-edit:hover,
+.icon-view:hover,
+.icon-delete:hover {
+  transform: scale(1.2);
+  rotate: 10deg;
+  padding: 8px;
+  margin-bottom: 0px;
+}
+
+/*DISPLAY FOR POSTS::::*/
+input[type="text"][disabled],
+textarea[disabled] {
+  color: #01244e;
+
+  background: none;
+  border: none;
+}
+
+input[type="text"][disabled] {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+textarea[disabled] {
+  font-family: "Archvio", sans-serif;
+  font-size: 1rem;
+  padding-bottom: 0;
+}
+/* FORM ANIMATION
+.form-group {
+  position: relative;
+  width: 300px;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+label {
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  transform: translateY(-20%);
+  font-size: 16px;
+  color: #888;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: -10px;
+  left: 8px;
+  font-size: 12px;
+  color: #007bff;
+  background-color: #f0f0f0;
+  padding: 0 4px;
+} */
